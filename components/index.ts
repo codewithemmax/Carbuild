@@ -1,17 +1,12 @@
-import Hero from "./Hero"
-import CustomButton from "./CustomButton"
-import NavBar from "./NavBar"
-import Footer from "./Footer"
-import CustomFilter from "./CustomFilter"
-import SearchBar from "./SearchBar"
-import SearchManufacturer from "./SearchManufacturer"
-
-export {
-  Hero,
-  CustomButton,
-  NavBar,
-  Footer,
-  SearchBar,
-  CustomFilter,
-  SearchManufacturer
-}
+export { default as Hero } from "./Hero";
+export { default as CustomButton } from "./CustomButton";
+export { default as NavBar } from "./NavBar";
+export { default as Footer } from "./Footer";
+export { default as CustomFilter } from "./CustomFilter";
+export { default as SearchBar } from "./SearchBar";
+export { default as SearchManufacturer } from "./SearchManufacturer";
+export { default as CarCard } from "./CarCard";
+export { default as CarDetails } from "./CarDetails";
+export { default as ShowMore } from "./ShowMore";
+export { default as CompareBar } from "./CompareBar";
+export { default as CompareModal } from "./CompareModal";
